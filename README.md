@@ -1,4 +1,6 @@
-# Julia testing spike
+# Julia JUnit spike
+
+Quick spike to see how to have Julia tests emit JUnit-formatted test results
 
 First install Julia (on Mac, `brew cask install julia` should do it)
 
