@@ -19,4 +19,4 @@ $
 ```
 $ julia MyPackage.jl/test/runtests.jl
 ```
-should product a JUnit-format result file
+should produce a JUnit-format result file
