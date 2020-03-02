@@ -8,7 +8,7 @@ First install Julia (on Mac, `brew cask install julia` should do it)
 ```
 $ julia
 pkg> ]dev ./MyPackage.jl
-pkg> add https://github.com/maccam912/JUnitTestSets.jl.git
+pkg> add https://github.com/monch1962/JUnitTestSets.jl.git
 pkg> status
 pkg> test MyPackage
 <Ctrl-D>
