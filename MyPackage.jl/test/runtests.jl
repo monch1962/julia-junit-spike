@@ -14,3 +14,18 @@ end
 
 junit_report = write_report(ts)
 print(junit_report)
+
+# Should pull check_test_results() out into JUnitTestSet.jl package...
+function check_test_results(ts::JUnitTestSet) 
+    for t in ts.results
+        if !t.result
+            return 1
+        end
+    end
+    return 0
+end
+
+results = check_test_results(ts)
+exit(results)
+
+
