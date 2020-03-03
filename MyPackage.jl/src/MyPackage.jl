@@ -1,3 +1,5 @@
+# Dummy package solely for the purpose of demonstrating testing capability...
+
 module MyPackage
 
 export pi_approximation
